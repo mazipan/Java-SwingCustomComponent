@@ -4,13 +4,13 @@ import javax.swing.ImageIcon;
 
 public class IconsFactory {
 	
-	public static ImageIcon getImageIcon(String name) {
+	public static ImageIcon getImageIcon(String path) {
 		ImageIcon icon = null;
-        if (name != null) {
+        if (path != null) {
         	try {
-        		icon = new ImageIcon(IconsFactory.class.getResource(name));
+        		icon = new ImageIcon(IconsFactory.class.getResource(path));
         	} catch (NullPointerException ex) {
-        		System.out.println("Cannot get icon : " + name);
+        		System.out.println("Cannot get icon in path : " + path);
         	}
         }
         
