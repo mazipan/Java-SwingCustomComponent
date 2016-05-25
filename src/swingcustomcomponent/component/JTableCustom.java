@@ -12,6 +12,7 @@ import swingcustomcomponent.component.renderer.TextIcon;
 
 
 /**
+ * @author irfan.maulana
  * The Class JTableCustom.
  * JTable with added some custom feature.
  */

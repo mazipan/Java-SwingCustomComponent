@@ -8,7 +8,10 @@ import javax.swing.ListCellRenderer;
 import javax.swing.UIManager;
 import swingcustomcomponent.model.CheckableItem;
 
-
+/**
+ *
+ * @author irfan.maulana
+ */
 @SuppressWarnings({ "serial", "rawtypes" })
 public class CheckListRenderer  extends JCheckBox implements ListCellRenderer {
 	

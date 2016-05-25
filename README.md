@@ -5,6 +5,7 @@ This is make over from general swing into custom component that will be used in 
 Available Component :
 + CheckboxList
 + ColumnAutoSizer
++ GradientPanel
 + IntegerTextField
 + JTableCustom
 + TransparentButton

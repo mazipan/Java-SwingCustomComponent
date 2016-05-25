@@ -7,6 +7,7 @@ import swingcustomcomponent.util.IntegerFilter;
 
 
 /**
+ * @author irfan.maulana
  * The Class IntegerTextField.
  * TextField that only accept integer value.
  */
